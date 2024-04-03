@@ -3,11 +3,25 @@
     list-style-type: none;
     background-color: #1F2937;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+    font-display: white;
 
 }
 
 ul{
     list-style-type: none;
     display: flex;
+    gap: 8px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.hero{
+    display: flex;
+    background-color: #1F2937;
+    font-display: white;
+}
+a{
+    text-decoration: none;
+    font-size: 22px;
 }
