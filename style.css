@@ -37,7 +37,6 @@ a{
     color: white;
     display: flex;
     align-items: center;
-    border: 4px solid blue;
     height: 140px;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -55,19 +54,37 @@ a{
     padding: 20px;
 }
 button{
-    background-color: blue;
+    background-color:#3882f6;
     border-radius: 10px;
 }
 .container{
     display: flex;
- border:4px solid blue;
  justify-content: space-around;
  padding-top: 25px;
+ padding-bottom: 25px;
+ gap:16px;
 }
 .Portfolio{
-    border:4px solid blue;
     display: flex;
     align-items: center;
- justify-content: space-between;
+ justify-content: space-around;
 }
+.info{
+    border: 2px solid lightblue;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.text{
+    padding: 10px;
+}
+.About{
+    background-color:#e5e7eb;
+    height: 200px;
+    font-style: italic;
+    font-size: 36px;
+
+}
+.action{
+    background-color: #3882f6;
+    padding: 25px;
 }
