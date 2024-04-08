@@ -12,6 +12,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
     
     
 }
@@ -79,12 +81,32 @@ button{
 }
 .About{
     background-color:#e5e7eb;
-    height: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
     font-style: italic;
-    font-size: 36px;
+    font-size: 20px;
+    font-weight: lighter; 
 
 }
-.action{
+.content{
     background-color: #3882f6;
-    padding: 25px;
+    width: fit-content;
+    height: 50px;
+    padding-top: 25px;
+    margin: 10px;
+}
+.footer{
+    background-color: #1F2937;
+}
+.main{
+    display: flex;
+    gap: 160px;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 20px;
+    align-content: center;
+
 }
