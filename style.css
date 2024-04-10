@@ -6,41 +6,48 @@
 .navbar{
     background-color: #1F2937;
    
+
+   
     
 }
 .navdiv{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 0px;
-    margin: 0px;
+ 
     
     
 }
 ul{
     list-style-type: none;
+    margin: 0px;
+    padding: 0px;
    
 }
 li{
     display: inline-block;
+    margin-left:70px; 
+    padding-top: 23px;
+
+    position: relative;
     
 }
 .logo{
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
     margin-left: 10px;
     padding: 15px;
 }
 a{
     color: white;
+    text-transform: uppercase;
 }
 .hero{
     background-color: #1F2937;
     color: white;
     display: flex;
-    align-items: center;
+    
     height: 140px;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
    
     
@@ -59,7 +66,8 @@ button{
     background-color:#3882f6;
     border-radius: 10px;
     color: white;
-    box-shadow: white;
+    border-color: white;
+    
 }
 .container{
     display: flex;
@@ -112,6 +120,8 @@ button{
 }
 .footer{
     background-color: #1F2937;
+    color: white;
+    text-align: center;
 }
 .main{
     display: flex;
@@ -122,3 +132,24 @@ button{
     align-items: center;
 
 }
+nav a:hover{
+    color:aqua;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: aqua;
+
+    width: 0%;
+    position: absolute;
+    top:0;
+
+    transition: all ease-in-out 250ms;
+}
+nav a:hover::before{
+    width: 100%;
+}
+
+
