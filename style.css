@@ -63,7 +63,7 @@ button{
     display: flex;
  justify-content: space-around;
  padding-top: 25px;
- padding-bottom: 25px;
+ padding-bottom: 50px;
  gap:16px;
  
 }
@@ -75,7 +75,10 @@ button{
 .info{
     border: 2px solid lightblue;
     justify-content: space-around;
-    padding-top: 10px;
+    padding-top: 0px;
+    height: 100px;
+    width: 150px;
+    
 }
 .text{
     padding: 10px;
@@ -110,9 +113,4 @@ button{
     padding: 20px;
     align-content: center;
 
-}
-.info{
-    flex-wrap: wrap;
-    width: 150px;
-    height: 100px;
 }
