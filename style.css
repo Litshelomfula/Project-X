@@ -65,6 +65,7 @@ button{
  padding-top: 25px;
  padding-bottom: 25px;
  gap:16px;
+ 
 }
 .Portfolio{
     display: flex;
@@ -109,4 +110,9 @@ button{
     padding: 20px;
     align-content: center;
 
+}
+.info{
+    flex-wrap: wrap;
+    width: 150px;
+    height: 100px;
 }
